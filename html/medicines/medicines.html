@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicines</title>
+
+    <style>
+        *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+}
+/*it is for nav part*/
+a{
+    text-decoration:none;
+}
+
+
+
+.title-section{
+	overflow:hidden;
+    position:fixed;
+    width:100%;
+    height:auto;
+    margin:-50px 0px 0px 0px;
+    display:inline-flex;
+    justify-content:space-between;
+    background:rgb(82, 127, 226);
+	z-index:5;
+	
+}
+
+.hospital-title{
+    margin:10px 0px 10px 50px;
+    font-size:30px;
+    color:ghostwhite;
+    font-family:sans-serif;
+
+}
+.hospital-back{
+    height:auto;
+    width:auto;
+    padding:15px 20px;
+    
+    color:white;
+    background:rgb(255, 22, 22);
+    font-size:20px;
+    font-family:sans-serif;
+}
+.hospital-back:hover{
+    cursor:pointer;
+    color:rgb(60, 255, 0);
+    background:rgb(38, 99, 233);
+    transition:all 500ms;
+    border-radius:5px;
+
+}
+
+
+
+
+
+
+/*it is for displaying three container*/
+.container{
+  margin:50px 0px 0px 0px;
+}
+
+
+
+
+.accordion {
+      position:;
+      margin:15px 0px 0px 0px;
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 70px;
+      width: 100%;
+      border: none;
+      text-align: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      outline: none;
+      font-size: 30px;
+      font-weight:500;
+      font-style:initial;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc; 
+    }
+    
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+/*this is for disease and medicine inside wala part*/
+  
+  .head{
+    margin:0px 10px 0px 10px;
+    width:98.5%;
+    height:auto;
+    background-color:rgb(115, 188, 247);
+   position: ;
+   border-radius:5px 5px 0px 0px;
+   
+  }
+  
+  .medicine-title{
+    margin:0px;
+    padding:15px 5px 5px 7px;
+    font-size:25px;
+    font-family:sans-serif;
+    cursor:pointer;
+    color:rgb(112, 105, 105);
+    text-shadow: 0px 0px 5px white;
+  }
+  
+  
+  
+  
+  #myInput {
+    background-image: url('');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px 20px 5px 15px;
+    border: 1px solid rgb(44, 243, 87);
+    margin-bottom: 5px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin:0px 10px 10px 10px;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 11px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+    font-family: sans-serif;
+    opacity:0.9;
+    
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  
+
+
+
+
+  .gallery_container{
+    background:rgb(28, 28, 59);
+    
+  }
+.image-container{
+  color:red;
+  margin:20px;
+ 
+
+  
+}
+.gallery_container .image-container img{
+  height:250px;
+  margin:0px;
+  width:200px;
+  padding:5px;
+  translate: 12deg;
+  border-radius:5px;
+}
+    </style>
+</head>
+<body>
+    
+  <section class="title-section">
+    <h1 class="hospital-title">
+        Medicine's
+    </h1>
+    <a href="../../index.html"> <div class="hospital-back">
+      <p>
+        Back!
+      </p>
+
+    </div></a>
+  </section>
+
+
+
+    <section class="container">
+    
+    <button class="accordion"> -By a "MEDICINE" Name</button>
+    <div class="panel">
+        <body>
+            <div class="head">
+               <h2 class="medicine-title"> -By a "MEDICINE" Name.</h2>
+       
+               <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+       
+             </div>
+       
+       
+       
+       
+       
+             <div class="body">
+               <ul id="myUL">
+                   <li><a href="../../index.html">Aldactone</a></li>
+                   <li><a href="#">Diuril</a></li>
+         
+                   <li><a href="#">Esidrix</a></li>
+                   <li><a href="../about.html">	Blocadren</a></li>
+                   <li><a href="#">Betapace</a></li>
+                   <li><a href="#">	Midamar</a></li>
+                   <li><a href="#"> Hygroton</a></li>
+                 
+                 
+                   <li><a href="medicineBYname/paracetamol.html">Paracetamol</a></li>
+                   <li><a href="#">Bumex</a></li>
+                 
+                   
+                   <li><a href="#">Levatol</a></li>
+                   <li><a href="#">Corgard</a></li>
+                 
+                   <li><a href="#">Toprol-XL</a></li>
+                   <li><a href="#">tenormin 50 mg</a></li>
+                   <li><a href="#">Terbutaline</a></li> 
+                   <li><a href="#">Metaproterenol</a></li>
+                   <li><a href="#">Levalbuterol (Xopenex HFA).</a></li>
+                 
+                   <li><a href="#">Albuterol (ProAir HFA, Proventil HFA, Ventolin HFA)</a></li>
+                  
+                </ul>
+       </div>  
+       
+         
+       <script>
+       function myFunction() {
+           var input, filter, ul, li, a, i, txtValue;
+           input = document.getElementById("myInput");
+           filter = input.value.toUpperCase();
+           ul = document.getElementById("myUL");
+           li = ul.getElementsByTagName("li");
+           for (i = 0; i < li.length; i++) {
+               a = li[i].getElementsByTagName("a")[0];
+               txtValue = a.textContent || a.innerText;
+               if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                   li[i].style.display = "";
+               } else {
+                   li[i].style.display = "none";
+               }
+           }
+       }
+       </script>
+       
+    
+    </div>
+   
+    
+    <button class="accordion"> -By a "DISEASE" Name
+         </button>
+    <div class="panel">
+    
+
+            
+
+
+  
+       
+        <body>
+            <div class="head">
+               <h2 class="medicine-title"> -By a "DIESES" Name.</h2>
+       
+               <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+       
+             </div>
+       
+             <div class="body">
+               <ul id="myUL">
+                   <li><a href="../disease/asthma/asthma.html">Asthma</a></li>
+                   <li><a href="../disease/bloodpressure/bp.html">Blood Pressure</a></li>
+         
+                   <li><a href="../disease/breast cancer/breastcancer.html">Breast Cancer</a></li>
+                   <li><a href="../disease/fever/fever.html">Fever</a></li>
+                   <li><a href="../disease/migraine/migraine.html">Migrane</a></li>
+                   <li><a href="../disease/heart attack/heartattack.html">heart attack</a></li>
+                   <li><a href="../disease/kidney stone/kidneyston.html">kidney stone</a></li>
+                 
+                 
+                   <li><a href="../disease/sore throat/sorethroat.html">sore throat</a></li>
+                   <li><a href="../disease/wrinkles/wrinkles.html">wrinkles</a></li>
+                 
+                   
+                   <li><a href="../disease/dengue/dengue.html">dengue</a></li>
+                   <li><a href="../disease/disjoints/disjoint.html">disjoints</a></li>
+                 
+                   <li><a href="../disease/diabetes/diabetes.html">Diabetes</a></li>
+                   <li><a href="../disease/mensuration/mensuration.html">mensuration</a></li>
+                   <li><a href="../disease/mensuration/mensuration.html">depression</a></li> 
+                   <li><a href="#">algeric</a></li>
+                   <li><a href="../disease/flue/flue.html">flue</a></li>
+                 
+                   <li><a href="#">leg pain</a></li>
+                   <li><a href="#">weight lose</a></li>
+                 
+                   <li><a href="#">hepatitis</a></li>
+                   <li><a href="#">red eye</a></li>
+                   <li><a href="#">herniya</a></li>
+                 
+                   <li><a href="../disease/blood cancer/bloodcancer.html">blood cancer</a></li>
+                   <li><a href="#">brain tumor</a></li>
+                 
+                   <li><a href="#">aches</a></li>
+                   <li><a href="#">gastics</a></li>
+                   <li><a href="#">pimples</a></li> 
+                   <li><a href="#">acene</a></li>
+                   <li><a href="#">knee pain</a></li>
+                 
+              
+                </ul>
+       </div>  
+       
+       
+         
+       <script>
+       function myFunction() {
+           var input, filter, ul, li, a, i, txtValue;
+           input = document.getElementById("myInput");
+           filter = input.value.toUpperCase();
+           ul = document.getElementById("myUL");
+           li = ul.getElementsByTagName("li");
+           for (i = 0; i < li.length; i++) {
+               a = li[i].getElementsByTagName("a")[0];
+               txtValue = a.textContent || a.innerText;
+               if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                   li[i].style.display = "";
+               } else {
+                   li[i].style.display = "none";
+               }
+           }
+       }
+       </script>
+       
+       </body>
+    </div>
+        
+    
+    <button class="accordion"> -By an "IMAGE's"</button>
+    <div class="panel">
+      
+
+      <div class="gallery_container">
+        <div class="image-container">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+          <img src="../../img/a.jpg">
+        </div>
+      </div>
+    </div>
+ 
+    
+
+
+
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function myFunction() {
+           var input, filter, ul, li, a, i, txtValue;
+           input = document.getElementById("myInput");
+           filter = input.value.toUpperCase();
+           ul = document.getElementById("myUL");
+           li = ul.getElementsByTagName("li");
+           for (i = 0; i < li.length; i++) {
+               a = li[i].getElementsByTagName("a")[0];
+               txtValue = a.textContent || a.innerText;
+               if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                   li[i].style.display = "";
+               } else {
+                   li[i].style.display = "none";
+               }
+           }
+       }
+    </script>
+    
+  </section>
+
+</body>
+</html>

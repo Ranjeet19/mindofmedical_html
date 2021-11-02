@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="../../css/medicine1.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+     <div class="head">
+        <h2 class="medicine-title"> -By a "MEDICINE" Name.</h2>
+
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+      </div>
+
+
+
+
+
+      <div class="body">
+        <ul id="myUL">
+            <li><a href="../../index.html">Aldactone</a></li>
+            <li><a href="#">Diuril</a></li>
+  
+            <li><a href="#">Esidrix</a></li>
+            <li><a href="../about.html">	Blocadren</a></li>
+            <li><a href="#">Betapace</a></li>
+            <li><a href="#">	Midamar</a></li>
+            <li><a href="#"> Hygroton</a></li>
+          
+          
+            <li><a href="medicineBYname/paracetamol.html">Paracetamol</a></li>
+            <li><a href="#">Bumex</a></li>
+          
+            
+            <li><a href="#">Levatol</a></li>
+            <li><a href="#">Corgard</a></li>
+          
+            <li><a href="#">Toprol-XL</a></li>
+            <li><a href="#">tenormin 50 mg</a></li>
+            <li><a href="#">Terbutaline</a></li> 
+            <li><a href="#">Metaproterenol</a></li>
+            <li><a href="#">Levalbuterol (Xopenex HFA).</a></li>
+          
+            <li><a href="#">Albuterol (ProAir HFA, Proventil HFA, Ventolin HFA)</a></li>
+           
+         </ul>
+</div>  
+
+
+  
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,296 @@
+    *{margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+   
+}
+    .title_section{
+        display:flex;
+        justify-content:space-between;
+        padding:0px;
+        background:blue;
+        font-family:sans-serif;
+
+    }
+    .hospital_title{
+        color:white;
+        margin:5px 50px;
+
+    }
+
+    .hospital_back{
+        background:red;
+        color:white;
+        text-align:center;
+        padding:15px 20px;
+        height:50px;
+    }
+    .hospital_back:hover{
+        cursor:pointer;
+        background:blue;
+        color:chartreuse;
+        transition: all 1s;
+        }
+    a{
+        text-decoration:none;
+    }
+
+  
+
+ 
+
+i{
+	height:20px;
+	width:20px;
+	color:black;
+	margin:10px;
+}
+i:hover{
+	color:white;
+	cursor:pointer;
+
+}
+
+.e.g{
+	margin:20px 10px ;
+	width:90%;
+	background-color:rgb(36, 226, 30);
+	height:auto;
+	border-radius:0px;
+	box-shadow: 0px 1px 1px 0px black;
+
+}
+.pc{
+	position:relative;
+	width:100%;
+	height:360px;
+}
+
+                .text_inpic{
+                margin-top: -4px;
+                margin-bottom:2px;
+                display:flex;
+                flex-direction: column;  
+                background:#555;
+                padding:10px;
+                z-index:1023px;
+                }
+                .Hospital-name{
+                float:left;
+                    color:white;
+                    bottom:230px;
+                    left:455px;
+                }
+
+                .hospital-address{
+                    color:white;
+                    bottom:210px;
+                    left:455px;
+                    font-size:18px;
+
+                }
+
+
+.timeline{
+	color:rgb(0, 0, 0);
+	display:flex;
+	margin:2px 0px 0px 0px ;
+	padding:10px 0px 10px 0px;
+	align-content:center;
+	font-size:15px;
+	height:20px;
+	width:100%;
+	background-color:white;
+	justify-content: space-around;
+
+}
+
+
+
+* {box-sizing: border-box}
+					
+					/* Set height of body and the document to 100% */
+					body, html {
+					  height: auto;
+					  margin: 0;
+					  font-family: Arial;
+					}
+					
+					/* Style tab links */
+					.tablink {
+					  background-color: #555;
+					  color: white;
+					  float: left;
+					  border: none;
+					  outline: none;
+					  cursor: pointer;
+					  padding: 12px 6px;
+					  font-size: 17px;
+					  width: 25%;
+					}
+					
+					.tablink:hover {
+					  background-color: #777;
+					}
+					
+					/* Style the tab content (and add height:100% for full page content) */
+					.tabcontent {
+					  color: white;
+					  display: none;
+					  padding: 40px 20px 100px 20px;
+					  height: auto;
+					  margin-bottom:50px;
+					}
+
+					.mybutton{
+						justify-content: space-between;
+						display:flex;
+						margin-top:1px;
+					}
+					/* .map{
+						padding:1px;
+						background:red;
+						width: auto;
+						float:left;
+						position:absolute;
+						z-index:1;
+						right:10px;
+						top:255px;
+					} */
+					.text{
+						color:black;
+						margin-bottom:20px;
+						font-family:sans-serif;
+					}
+					.heading{
+						margin:20px 0px;
+						color:black;
+					}
+					.list{
+						color:black;
+						padding:0px 40px;
+					}
+
+					.list li{
+						
+				
+					}
+
+					#About {background-color: rgb(235, 227, 227);}
+					#News {background-color: rgb(235, 227, 227);}
+					#Contact {background-color: rgb(235, 227, 227);}
+					#Health_worker {background-color:rgb(235, 227, 227);}
+					#Gallery {background-color: rgb(235, 227, 227);}
+					#More {background-color: rgb(235, 227, 227);}
+
+
+
+
+
+
+
+					/* this section is for Health Wotkers part */
+
+
+
+					.workers{
+						height:auto;
+						width: auto;
+						background:rgb(250, 250, 250);
+						display:flex;
+						justify-content:flex-start;
+						padding:20px 30px;
+						color:rgb(125, 166, 173);
+						border-radius:5px;
+				
+						margin : 20px 30px;
+					}
+
+					.workers img{
+						height:50px;
+						width:50px;
+						border-radius:50%;
+						margin-right:20px;
+						margin-top:-5px;
+						
+
+					}
+
+					.w-name{
+						margin-bottom:4px;
+						font-weight:0.6;
+					}
+					.w-description{
+						margin-left:5px;
+						font-size:15px;
+					}
+
+
+
+
+
+
+					/* THis css is for Gallery part */
+					#gallery{
+
+					justify-content: space-around;
+					padding-left:40px;
+					}
+					 #gallery img{
+						height:150px;
+						width:200px;
+						padding-left:20px;
+						padding-bottom:20px;
+						margin-left:20px;
+					}
+					#gallery img:hover{
+						transform:1.2;
+						cursor:pointer;
+						transform: scale(2.5);
+						transition:all 3s;
+						overflow:hidden;
+					}
+
+
+
+
+			
+
+
+                    /* this is grid sectionL */
+                    .container{
+                        display:grid;
+                        grid-template-columns:30% 70%;
+                      }
+                      
+                      .first_div{
+                        height:auto;
+                        width:100%;
+                        background:rgb(235, 219, 219);
+                      
+                      }
+                      
+                      .second_div{
+                        background:rgb(224, 210, 231);
+                        height:auto;
+                        width:100%;
+                      }
+
+                      
+
+
+                      .quotes{
+                        height:200px;
+                        width:90%;
+                        color:greenyellow;
+                        background:rgb(151, 147, 155);
+                        font-family: 'Cormorant', serif;
+                        font-size:20px;
+                        text-align:center;
+                        padding:90px 0px;
+                        margin:20px 17px 10px 17px;
+                        
+                      }
+                
+                      .map{
+                       padding:15px;
+                      }

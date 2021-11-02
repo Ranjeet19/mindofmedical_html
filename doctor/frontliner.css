@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.second_div{
+    background:rgba(233, 221, 227, 0.281);
+    width:100%;
+    height:100%;
+}
+
+
+
+.add_doctor{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    height:auto;
+    padding:20px 70px;
+    background:rgb(246, 248, 247);
+    color:red;
+    font-family: 'itim',cursive;
+}
+
+.dashboard_name{
+    color:blueviolet;
+    font-size:24px;
+
+}
+.add_post_btn{
+    margin-right:-5px;
+    color:white;
+    background:blueviolet;
+    padding:5px 10px;
+    border-radius:50px;
+    cursor:pointer;
+}
+.add_post_btn:hover{
+    box-shadow:0px 0px 20px rgb(102, 255, 0);
+}
+
+
+
+.dasboard_container{
+    display:flex;
+    flex-wrap: wrap;
+
+    
+}
+
+
+
+.divi{
+    margin-top:30px;
+    margin-left:70px;
+    background:white;
+    height:200px;
+    width:270px;
+    border-radius:5px;
+    box-shadow: 0px 0px 1px red;
+    text-align: center;
+}
+
+
+.divi:hover{
+    cursor:pointer;
+    box-shadow:0px 0px 5px rgb(50, 224, 247); 
+    transition:all 0.20s;
+}
+.img_edit_delete_div{
+    width:100%;
+    height:auto;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:5px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.doc_img{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    margin-top:5px;
+    margin-left:95px;
+
+}
+#menu_icon{
+
+    color:rgba(0, 0, 0, 0.466);
+}
+#menu_icon:hover{
+    cursor:pointer;
+
+    color:rgba(19, 129, 255, 0.712);
+}
+
+
+.doc_name{
+    font-size:20px;
+    margin-top:5px;
+    font-family:'itim',cursive;
+    color:rgba(0, 0, 0, 0.795);
+}
+
+.doc_field{
+    font-size:14px;
+    font-family:'itim',cursive;
+    color:rgba(0, 0, 0, 0.795);
+
+}
+.doc_address{
+    font-family:'itim',cursive;
+    color:rgba(0, 0, 0, 0.795);
+    font-size:16px;
+
+}
+
+/* edit delete part begins from here */
+#edit_delete{
+    list-style:none;
+    position:absolute;
+    height:auto;
+    width:20px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.815);
+    margin-top:-5px;
+    margin-left:245px;
+    float:right;    
+}
+
+.delete{
+    font-family:'itim',cursive;
+    font-size:10px;
+    padding:5px;
+}
+
+
+.delete:hover{
+    background:rgba(37, 36, 36, 0.151);
+    color:rgba(31, 173, 255, 0.849);
+}

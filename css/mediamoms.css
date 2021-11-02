@@ -1,0 +1,2804 @@
+
+
+/***media for desktop view ***/
+
+@media (max-width:1050px){
+    /*media for heading part */
+    .heading{
+        margin :0px 0px 10px 0px;
+      
+        height:70px;
+        width:100%;
+    }
+    
+    
+    .logo{
+    
+        width:240px;
+        height:auto;
+        margin:10px 0px 5px 30px;
+        background-color:white;
+    }
+    
+
+    
+    
+    .logo-heading{
+        
+        float:left;
+        margin:5px 0px 0px 11px;
+        background-color:white;
+        font-family:montserrat;
+        font-size:30px;
+    
+    }
+    .logo-img{
+        height:1%px;
+        width:97%;
+        margin:0px;
+    }
+    
+    
+    
+    .anchor{
+        text-transform: ;
+        font-family:montserrat;
+        text-align:center;
+        height:30px;
+        list-style:none;
+        font-size:17px;
+        display:flex;
+        line-height: ;
+        justify-content:space-around;
+        background-color:white;
+        margin:40px 0px 0px 0px;
+        padding:0px 5px 5px 5px;
+        width:40%;
+    
+    }
+    
+    .li-home{
+        background-color:white;
+        padding:5px;
+        text-align:center;
+        height:28px;
+        width:auto;
+        text-decoration:none;
+        float:left;
+    
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    
+    .li-home:hover{
+        color:white;
+        background-color:rgb(41, 240, 240);
+        height:28px;
+        border-radius:5px;
+        transition: all 0.5s;
+        cursor:pointer;
+        padding:5px;
+    
+        
+    }
+    
+
+
+
+.e{
+	float:left;
+}
+
+.left-division{
+	position:left;
+	height:84%;
+	width:18%;
+	background:#e6e6e6;
+	margin:75px 5px 0px 15px ;
+	position:fixed;
+	box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+	text-align:;
+	float:left;
+	border-radius:5px;
+	font-family:sans-serif;
+
+
+}
+
+.left-division-heading{
+	cursor:pointer;
+	margin:5px 5px 5px 10px;
+	padding:5px;
+	font-size:18px;
+	color:;
+	background-color:;
+}
+
+.dieses{
+	list-style:none;
+	text-decoration:none;
+	font-size:13px;
+	color:#30cbd6;
+	padding:;
+	margin:5px 10px 0px 20px;
+}
+
+
+.dieses:hover{
+	cursor:pointer;
+	color:rgb(64, 66, 61);
+}
+
+.left-division-view{
+	position:absolute;
+	bottom:7px;
+	left:100px;
+	text-transform:;
+	color:rgb(57, 130, 240);;
+	cursor:pointer;
+	font-size:13px;
+	float:right;
+}
+.left-division-view:hover{
+	color:black;
+
+
+}
+
+
+
+
+.g{
+	margin:90px 0px 10px 220px;
+	width:470px;
+	background-color:white;
+
+	border-radius:3px;
+
+}
+
+.top-middle-division{
+	float:left;
+	 height:40px;
+	 width:100%;
+	 background-color:white;
+	 margin:0px 0px 0px 0px ;
+	 padding:7px;
+	 border-radius:10px;
+	color:blue;
+	text-align:center;
+	font-size:20px;
+
+}
+
+
+.middle-division{
+	float:left;
+	 height:160px;
+	 width:100%;
+	 background-color:white;
+	 margin:30px 0px 0px 0px ;
+	 border-radius:10px;
+	 box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+	 border-style:solid;
+	 border-left-width:10px;
+	 border-right-width:10px;
+	 border-top-width:1px;
+	 border-bottom-width:1px;
+	 border-color:blue;
+     font-family:sans-serif;
+     overflow:hidden;
+
+}
+
+
+
+
+
+.middle-division-img{
+	float:left;
+	position: ;
+	height:95%;
+	width:140px;
+	margin:5px 10px 5px 0px;
+	border-style:solid;
+	border-color: blue;
+	border-width: 5px 0px 5px 0px;
+	border-radius:0px 5px 5px 0px;
+}
+
+.middle-division-heading{
+	margin:10px 10px 3px 0px;
+	font-size:18px;
+}
+
+.middle-division-text{
+	font-style:;
+	font-size:14px;
+	color:rgb(39, 75, 238);
+	margin:0px 10px 0px 15px;
+}
+
+
+
+.read-more{
+	position: ;
+	margin-right: 8px;
+	margin-bottom: 2px;
+	float:right;
+	height:25px;
+	width:70px;
+	color:white;
+	background-color:rgb(32, 139, 238);
+	border-radius:3px;
+	font-size:13px;
+	padding:4px;
+	text-align:center;
+}
+
+
+.read-more:hover{
+	cursor:pointer;
+	color:rgb(0, 0, 0);
+	background-color:rgba(221, 219, 219, 0.226);
+	transition:all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.right_container{
+	float:left;
+	position:fixed;
+	margin:75px 5px 0px 710px;
+	width:310px;
+	background-color:#35e3f0;
+	height:84%;
+	border-radius:3px;
+	box-shadow:0px 15px 15px 0px rgb(100, 89, 89);
+}
+
+.right-division-1{
+	float:left;
+	overflow:hidden;
+	position: relative;
+	height:25px;
+	width:99px;
+	background-color:white;
+	margin:12px 0px 0px 10px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.right-division-2{
+	float:left;
+	overflow:hidden;
+	position:absolute;
+	height:25px;
+	width:87.3px;
+	background-color:white;
+	margin:55px 0px 0px 60px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.right-division-3{
+	float:left;
+	overflow:hidden;
+	position:absolute;
+	height:25px;
+	width:91.40px;
+	background-color:white;
+	margin:105px 0px 0px 115px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.right-division-4{
+	position:absolute;
+	float:left;
+	overflow:hidden;
+	height:25px;
+	width:96.3px;
+	background-color:white;
+	margin:155px 0px 3px 165px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.right-division-5{
+	position:absolute;
+	float:left;
+	overflow:hidden;
+	height:25px;
+	width:92.49px;
+	background-color:white;
+	margin:205px 0px 3px 210px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.holder{
+	margin:0px;
+	height:252px;
+	width:100%;
+	background-color:#35e3f0;
+}
+
+.hold-hand{
+
+	float:;
+	color:black;
+	margin:5px 0px 0px 25px;
+
+	font-size:110px;
+}
+
+
+.syringe{
+	
+	 background-color:;
+	float:;
+	color:rgb(92, 113, 228);
+	margin:10px 5px 5px 310px;
+	font-size:110px;
+	opacity:0.7;
+}
+
+
+.syringe:hover{
+	color:rgb(0, 204, 240);
+	transition:all 1.5s;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/***media for tab view ***/
+
+@media (max-width:800px){
+    /*media for heading part */
+    .heading{
+        z-index:2;
+        margin :0px 0px 10px 0px;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        height:80px;
+        width:100%;
+        
+        border-radius:5px;
+        box-shadow: 0 0 25px #333;
+        top: 0;
+        left: 0;
+         
+        overflow:hidden;
+    
+        opacity:;
+        
+    }
+    
+    
+    .logo{
+    
+        width:190px;
+        height:auto;
+        margin:10px 0px 5px 20px;
+        background-color:white;
+    }
+    
+    .logo:hover{
+        cursor:pointer;
+    }
+    
+    
+    .logo-heading{
+        
+        float:left;
+        margin:5px 0px 0px 11px;
+        background-color:white;
+        font-family:montserrat;
+        font-size:24px;
+    
+    }
+    .logo-img{
+        height:1%px;
+        width:97%;
+        margin:0px;
+    }
+    
+    
+    
+    .anchor{
+        text-transform: ;
+        font-family:montserrat;
+        text-align:center;
+        height:30px;
+        list-style:none;
+        font-size:17px;
+        display:flex;
+        line-height: ;
+        justify-content:space-around;
+        background-color:white;
+        margin:40px 0px 0px 0px;
+        padding:0px 5px 5px 5px;
+        width:60%;
+    
+    }
+    
+    .li-home{
+        background-color:white;
+        padding:5px;
+        text-align:center;
+        height:28px;
+        width:auto;
+        text-decoration:none;
+        float:left;
+    
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    
+    .li-home:hover{
+        color:white;
+        background-color:rgb(41, 240, 240);
+        height:28px;
+        border-radius:5px;
+        transition: all 0.5s;
+        cursor:pointer;
+        padding:5px;
+    
+        
+    }
+    
+    
+    /*media for carosoul containing division */
+    
+    .right_container{
+        z-index: 1;
+        display:wrap;
+        float:left;
+        position:relative;
+        margin:270px 300px 0px 6px;
+        width:97%;
+        background-color:#35e3f0;
+        height:300px;
+        border-radius:3px;
+        box-shadow:0px 15px 15px 0px rgb(100, 89, 89);
+    }
+    
+    .right-division-1{
+        float:left;
+        overflow:hidden;
+        position: relative;
+        height:25px;
+        width:99px;
+        background-color:white;
+        margin:8px 0px 0px 40px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-2{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:87px;
+        background-color:white;
+        margin:8px 0px 0px 185px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-3{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:91.4px;
+        background-color:white;
+        margin:8px 0px 0px 310px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-4{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:96px;
+        background-color:white;
+        margin:8px 0px 3px 440px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-5{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:92.5px;
+        background-color:white;
+        margin:8px 0px 3px 565px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .holder{
+        margin:0px;
+        height:50px;
+        width:100%;
+        background-color:#35e3f0;
+    }
+    
+    .hold-hand{
+    
+        float:;
+        color:black;
+        margin:5px 0px 0px 25px;
+    
+        font-size:110px;
+    }
+    
+    
+    .syringe{
+        
+         background-color:;
+        float:;
+        color:rgb(92, 113, 228);
+        margin:10px 5px 5px 260px;
+        font-size:0px;
+        opacity:0.7;
+    }
+    
+    
+    .syringe:hover{
+        color:rgb(0, 204, 240);
+        transition:all 1.5s;
+        cursor:pointer;
+    }
+	
+	
+
+
+    /* media for search for disease part */
+    
+    .e{
+        float:left;
+    }
+    
+    .left-division{
+        display:inline;
+        z-index:1;
+        word-wrap: break-word;
+        padding:0px 0px 0px 30px;
+        height:	155px;
+        width:97%;
+        background:#e6e6e6;
+        margin:75px 5px 0px 5px ;
+        position: absolute;
+        box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+        text-align:;
+        float:left;
+        border-radius:5px;
+        font-family:sans-serif;
+        display:wrap;
+        overflow:hidden;
+        word-spacing:2px;
+     
+    
+    
+    }
+    
+    .left-division-heading{
+        word-wrap: break-word;
+        cursor:pointer;
+        margin:20px 5px 5px 5px;
+        padding:0px;
+        font-size:18px;
+        color:;
+        background-color:;
+    }
+    
+    .dieses{
+        display:inline;
+        list-style:none;
+        text-decoration:none;
+        font-size:16px;
+        color:#30cbd6;
+       
+        margin:5px 10px 0px 5px;
+        
+    }
+    
+    
+    .dieses:hover{
+        cursor:pointer;
+        color:rgb(64, 66, 61);
+    }
+    
+    .left-division-view{
+        position:absolute;
+        bottom:7px;
+        left:620px;
+        text-transform:;
+        color:rgb(57, 130, 240);;
+        cursor:pointer;
+        font-size:17px;
+        float:right;
+    }
+    .left-division-view:hover{
+        color:black;
+    
+    
+    }
+    
+    
+    
+    
+    /***media for middle part **/
+    
+    .g{
+        margin:0px 0px 10px 0px;
+        width:95%;
+        background-color:white;
+        position: absolute;
+        left:10px;
+        top:700px;
+        border-radius:3px;
+        z-index: 1;
+    
+    }
+    
+    .top-middle-division{
+        float:left;
+         height:40px;
+         width:100%;
+         background-color:white;
+         margin:0px 0px 0px 0px ;
+         padding:7px;
+         border-radius:10px;
+        color:blue;
+        text-align:center;
+        font-size:20px;
+    
+    }
+    
+    
+    .middle-division{
+        float:left;
+         height:180px;
+         width:100%;
+         background-color:white;
+         margin:30px 0px 0px 0px ;
+         border-radius:10px;
+         box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+         border-style:solid;
+         border-left-width:10px;
+         border-right-width:10px;
+         border-top-width:1px;
+         border-bottom-width:1px;
+         border-color:blue;
+         font-family:sans-serif;
+    
+    }
+    
+    
+    
+    
+    
+    .middle-division-img{
+        float:left;
+        position: ;
+        height:95%;
+        width:150px;
+        margin:5px 10px 5px 0px;
+        border-style:solid;
+        border-color: blue;
+        border-width: 5px 0px 5px 0px;
+        border-radius:0px 5px 5px 0px;
+    }
+    
+    .middle-division-heading{
+        margin:10px 10px 3px 0px;
+        font-size:25px;
+        opacity:0.9;
+        cursor: pointer;
+    }
+    
+    .middle-division-text{
+        font-style:;
+        font-size:18px;
+        color:rgb(39, 75, 238);
+        margin:0px 10px 0px 15px;
+        opacity:0.9;
+        cursor:pointer;
+    }
+    
+    
+    .read-more{
+        display:none;
+    }
+  
+}
+
+
+
+
+
+
+
+/**media for landscape view  ***/
+@media (max-width:710px){
+    /*media for heading part */
+    .heading{
+        z-index:2;
+        margin :0px 0px 10px 0px;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        height:70px;
+        width:100%;
+        
+        border-radius:5px;
+        box-shadow: 0 0 25px #333;
+        top: 0;
+        left: 0;
+         
+        overflow:hidden;
+    
+        opacity:;
+        
+    }
+    
+    
+    .logo{
+    
+        width:150px;
+        height:auto;
+        margin:20px 0px 5px 10px;
+        background-color:white;
+    }
+    
+    .logo:hover{
+        cursor:pointer;
+    }
+    
+    
+    .logo-heading{
+        
+        float:left;
+        margin:5px 0px 0px 11px;
+        background-color:white;
+        font-family:montserrat;
+        font-size:17px;
+    
+    }
+    .logo-img{
+        height:1%px;
+        width:97%;
+        margin:0px;
+    }
+    
+    
+    
+    .anchor{
+        text-transform: ;
+        font-family:montserrat;
+        text-align:center;
+        height:30px;
+        list-style:none;
+        font-size:14px;
+        display:flex;
+        line-height: ;
+        justify-content:space-around;
+        background-color:white;
+        margin:27px 0px 0px 0px;
+        padding:0px 5px 5px 5px;
+        width:60%;
+    
+    }
+    
+    .li-home{
+        background-color:white;
+        padding:5px;
+        text-align:center;
+        height:30px;
+        width:auto;
+        text-decoration:none;
+        float:left;
+    
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    
+    .li-home:hover{
+        color:white;
+        background-color:rgb(41, 240, 240);
+        height:35px;
+        border-radius:5px;
+        transition: all 0.5s;
+        cursor:pointer;
+        padding:5px;
+    
+        
+    }
+    
+    
+    /*media for carosoul containing division */
+    
+    .right_container{
+        z-index: 1;
+        display:wrap;
+        float:left;
+        position:relative;
+        margin:245px 300px 0px 6px;
+        width:97%;
+        background-color:#35e3f0;
+        height:300px;
+        border-radius:3px;
+        box-shadow:0px 15px 15px 0px rgb(100, 89, 89);
+    }
+    
+    .right-division-1{
+        float:left;
+        overflow:hidden;
+        position: absolute;
+        height:25px;
+        width:99px;
+        background-color:white;
+        margin:8px 0px 0px 100px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-2{
+        float:left;
+        overflow:hidden;
+        position: absolute;
+        height:25px;
+        width:87px;
+        background-color:white;
+        margin:8px 0px 0px 255px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-3{
+        float:left;
+        overflow:hidden;
+        position: absolute;
+        height:25px;
+        width:91.4px;
+        background-color:white;
+        margin:8px 0px 0px 385px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-4{
+        position: absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:96px;
+        background-color:white;
+        margin:45px 0px 3px 190px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-5{
+        position: relative;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:92.5px;
+        background-color:white;
+        margin:45px 0px 3px 310px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .holder{
+        margin:0px;
+        height:90px;
+        width:100%;
+        background-color:#35e3f0;
+        display:;
+    }
+    
+    .hold-hand{
+    
+        float:;
+        color:black;
+        margin:5px 0px 0px 25px;
+    
+        font-size:110px;
+    }
+    
+    
+    .syringe{
+        
+         background-color:;
+        float:;
+        color:rgb(92, 113, 228);
+        margin:10px 5px 5px 260px;
+        font-size:0px;
+        opacity:0.7;
+    }
+    
+    
+    .syringe:hover{
+        color:rgb(0, 204, 240);
+        transition:all 1.5s;
+        cursor:pointer;
+    }
+    
+    
+    
+    /* media for search for disease part */
+    
+    .e{
+        float:left;
+    }
+    
+    .left-division{
+        display:inline;
+        z-index:1;
+        word-wrap: break-word;
+        height:	155px;
+        width:97%;
+        background:#e6e6e6;
+        margin:65px 5px 0px 5px ;
+        position: absolute;;
+        box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+        text-align:;
+        float:left;
+        border-radius:5px;
+        font-family:sans-serif;
+        display:wrap;
+        overflow:hidden;
+    
+    
+    
+    }
+    
+    .left-division-heading{
+        word-wrap: break-word;
+        cursor:pointer;
+        margin:5px 5px 5px 5px;
+        padding:0px;
+        font-size:15px;
+        color:;
+        background-color:;
+    }
+    
+    .dieses{
+        list-style:none;
+        text-decoration:none;
+        font-size:14px;
+        color:#30cbd6;
+        padding:;
+        margin:5px 10px 0px 5px;
+    }
+    
+    
+    .dieses:hover{
+        cursor:pointer;
+        color:rgb(64, 66, 61);
+    }
+    
+    .left-division-view{
+        position:absolute;
+        bottom:7px;
+        left:480px;
+        text-transform:;
+        color:rgb(57, 130, 240);;
+        cursor:pointer;
+        font-size:12px;
+        float:right;
+    }
+    .left-division-view:hover{
+        color:black;
+    
+    
+    }
+    
+    
+    
+    
+    /***media for middle part **/
+    
+    .g{
+        margin:0px 0px 10px 0px;
+        width:95%;
+        background-color:white;
+        position: absolute;
+        left:10px;
+        top:700px;
+        border-radius:3px;
+    
+    }
+    
+    .top-middle-division{
+        float:left;
+         height:40px;
+         width:100%;
+         background-color:white;
+         margin:0px 0px 0px 0px ;
+         padding:7px;
+         border-radius:10px;
+        color:blue;
+        text-align:center;
+        font-size:20px;
+    
+    }
+    
+    
+    .middle-division{
+        float:left;
+         height:140px;
+         width:100%;
+         background-color:white;
+         margin:30px 0px 0px 0px ;
+         border-radius:10px;
+         box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+         border-style:solid;
+         border-left-width:10px;
+         border-right-width:10px;
+         border-top-width:1px;
+         border-bottom-width:1px;
+         border-color:blue;
+         font-family:sans-serif;
+    
+    }
+    
+    
+    
+    
+    
+    .middle-division-img{
+        float:left;
+        position: ;
+        height:95%;
+        width:100px;
+        margin:5px 10px 5px 0px;
+        border-style:solid;
+        border-color: blue;
+        border-width: 5px 0px 5px 0px;
+        border-radius:0px 5px 5px 0px;
+    }
+    
+    .middle-division-heading{
+        margin:10px 10px 3px 0px;
+        font-size:18px;
+    }
+    
+    .middle-division-text{
+        font-style:;
+        font-size:13px;
+        color:rgb(39, 75, 238);
+        margin:0px 10px 0px 15px;
+    }
+    
+    
+    .read-more{
+        display:none;
+    }
+    
+}
+
+
+   
+
+
+
+
+
+/**media for mobile view  ***/
+@media (max-width:450px){
+
+
+    /*media for heading part */
+    .heading{
+        z-index:2;
+        margin :0px 0px 10px 0px;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        height:70px;
+        width:100%;
+        
+        border-radius:5px;
+        box-shadow: 0 0 25px #333;
+        top: 0;
+        left: 0;
+         
+        overflow:hidden;
+    
+        opacity:;
+        
+    }
+    
+    
+    .logo{
+    
+        width:150px;
+        height:auto;
+        margin:20px 0px 5px 10px;
+        background-color:white;
+    }
+    
+    .logo:hover{
+        cursor:pointer;
+    }
+    
+    
+    .logo-heading{
+        
+        float:left;
+        margin:5px 0px 0px 11px;
+        background-color:white;
+        font-family:montserrat;
+        font-size:17px;
+    
+    }
+    .logo-img{
+        height:1%px;
+        width:97%;
+        margin:0px;
+    }
+    
+    
+    
+    .anchor{
+        text-transform: ;
+        font-family:montserrat;
+        text-align:center;
+        height:30px;
+        list-style:none;
+        font-size:14px;
+        display:flex;
+        line-height: ;
+        justify-content:space-around;
+        background-color:white;
+        margin:27px 0px 0px 0px;
+        padding:0px 5px 5px 5px;
+        width:60%;
+    
+    }
+    
+    .li-home{
+        background-color:white;
+        padding:5px;
+        text-align:center;
+        height:30px;
+        width:auto;
+        text-decoration:none;
+        float:left;
+    
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    
+    .li-home:hover{
+        color:white;
+        background-color:rgb(41, 240, 240);
+        height:35px;
+        border-radius:5px;
+        transition: all 0.5s;
+        cursor:pointer;
+        padding:5px;
+    
+        
+    }
+    
+    
+    /*media for carosoul containing division */
+    
+    .right_container{
+        z-index: 1;
+        display:wrap;
+        float:left;
+        position:relative;
+        margin:225px 300px 0px 6px;
+        width:97%;
+        background-color:#35e3f0;
+        height:300px;
+        border-radius:3px;
+        box-shadow:0px 15px 15px 0px rgb(100, 89, 89);
+    }
+    
+    .right-division-1{
+        float:left;
+        overflow:hidden;
+        position: relative;
+        height:25px;
+        width:99px;
+        background-color:white;
+        margin:8px 0px 0px 20px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-2{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:87px;
+        background-color:white;
+        margin:8px 0px 0px 155px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-3{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:91.4px;
+        background-color:white;
+        margin:8px 0px 0px 270px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-4{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:96px;
+        background-color:white;
+        margin:45px 0px 3px 95px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-5{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:92.5px;
+        background-color:white;
+        margin:45px 0px 3px 210px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .holder{
+        margin:0px;
+        height:90px;
+        width:100%;
+        background-color:#35e3f0;
+    }
+    
+    .hold-hand{
+    
+        float:;
+        color:black;
+        margin:5px 0px 0px 25px;
+    
+        font-size:110px;
+    }
+    
+    
+    .syringe{
+        
+         background-color:;
+        float:;
+        color:rgb(92, 113, 228);
+        margin:10px 5px 5px 260px;
+        font-size:0px;
+        opacity:0.7;
+    }
+    
+    
+    .syringe:hover{
+        color:rgb(0, 204, 240);
+        transition:all 1.5s;
+        cursor:pointer;
+    }
+    
+    
+    
+    /* media for search for disease part */
+    
+    .e{
+        float:left;
+    }
+    
+    .left-division{
+        display:inline;
+        z-index:1;
+        word-wrap: break-word;
+        height:	150px;
+        width:97%;
+        background:#e6e6e6;
+        margin:60px 5px 0px 5px ;
+        position: absolute;;
+        box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+        text-align:;
+        float:left;
+        border-radius:5px;
+        font-family:sans-serif;
+        display:wrap;
+        overflow:hidden;
+    
+    
+    
+    }
+    
+    .left-division-heading{
+        word-wrap: break-word;
+        cursor:pointer;
+        margin:5px 5px 5px 5px;
+        padding:0px;
+        font-size:15px;
+        color:;
+        background-color:;
+    }
+    
+    .dieses{
+        list-style:none;
+        text-decoration:none;
+        font-size:14px;
+        color:#30cbd6;
+        padding:;
+        margin:5px 10px 0px 5px;
+    }
+    
+    
+    .dieses:hover{
+        cursor:pointer;
+        color:rgb(64, 66, 61);
+    }
+    
+    .left-division-view{
+        position:absolute;
+        bottom:7px;
+        left:280px;
+        text-transform:;
+        color:rgb(57, 130, 240);;
+        cursor:pointer;
+        font-size:12px;
+        float:right;
+    }
+    .left-division-view:hover{
+        color:black;
+    
+    
+    }
+    
+    
+    
+    
+    /***media for middle part **/
+    
+    .g{
+        margin:0px 0px 10px 0px;
+        width:95%;
+        background-color:white;
+        position: absolute;
+        left:10px;
+        top:700px;
+        border-radius:3px;
+        z-index: 1;
+    
+    }
+    
+    .top-middle-division{
+        float:left;
+         height:40px;
+         width:100%;
+         background-color:white;
+         margin:0px 0px 0px 0px ;
+         padding:7px;
+         border-radius:10px;
+        color:blue;
+        text-align:center;
+        font-size:20px;
+    
+    }
+    
+    
+    .middle-division{
+        float:left;
+         height:140px;
+         width:100%;
+         background-color:white;
+         margin:30px 0px 0px 0px ;
+         border-radius:10px;
+         box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+         border-style:solid;
+         border-left-width:10px;
+         border-right-width:10px;
+         border-top-width:1px;
+         border-bottom-width:1px;
+         border-color:blue;
+         font-family:sans-serif;
+    
+    }
+    
+    
+    
+    
+    
+    .middle-division-img{
+        float:left;
+        position: ;
+        height:95%;
+        width:80px;
+        margin:5px 10px 5px 0px;
+        border-style:solid;
+        border-color: blue;
+        border-width: 5px 0px 5px 0px;
+        border-radius:0px 5px 5px 0px;
+    }
+    
+    .middle-division-heading{
+        margin:10px 10px 3px 0px;
+        font-size:15px;
+    }
+    
+    .middle-division-text{
+        font-style:;
+        font-size:12px;
+        color:rgb(39, 75, 238);
+        margin:0px 10px 0px 15px;
+    }
+    
+    
+    
+
+    
+    .read-more{
+        display:none;
+    }
+   .quick-link{
+    float:left;
+	margin:10px 0px 0px 0px;
+	height:300px ;
+	width:100%;
+	color:white;
+	background-color:rgb(6, 6, 51);
+   }
+}
+
+  
+
+
+
+
+/**media for mobile view  ***/
+@media (max-width:400px){
+    /*media for heading part */
+    .heading{
+        z-index:2;
+        margin :0px 0px 10px 0px;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        height:70px;
+        width:100%;
+        
+        border-radius:5px;
+        box-shadow: 0 0 25px #333;
+        top: 0;
+        left: 0;
+         
+        overflow:hidden;
+    
+        opacity:;
+        
+    }
+    
+    
+    .logo{
+    
+        width:150px;
+        height:auto;
+        margin:20px 0px 5px 10px;
+        background-color:white;
+    }
+    
+    .logo:hover{
+        cursor:pointer;
+    }
+    
+    
+    .logo-heading{
+        
+        float:left;
+        margin:5px 0px 0px 11px;
+        background-color:white;
+        font-family:montserrat;
+        font-size:17px;
+    
+    }
+    .logo-img{
+        height:1%px;
+        width:97%;
+        margin:0px;
+    }
+    
+    
+    
+    .anchor{
+        text-transform: ;
+        font-family:montserrat;
+        text-align:center;
+        height:30px;
+        list-style:none;
+        font-size:14px;
+        display:flex;
+        line-height: ;
+        justify-content:space-around;
+        background-color:white;
+        margin:27px 0px 0px 0px;
+        padding:0px 5px 5px 5px;
+        width:60%;
+    
+    }
+    
+    .li-home{
+        background-color:white;
+        padding:5px;
+        text-align:center;
+        height:30px;
+        width:auto;
+        text-decoration:none;
+        float:left;
+    
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    
+    .li-home:hover{
+        color:white;
+        background-color:rgb(41, 240, 240);
+        height:35px;
+        border-radius:5px;
+        transition: all 0.5s;
+        cursor:pointer;
+        padding:5px;
+    
+        
+    }
+    
+    
+    /*media for carosoul containing division */
+    
+    .right_container{
+        z-index: 1;
+        display:wrap;
+        float:left;
+        position:relative;
+        margin:220px 300px 0px 6px;
+        width:97%;
+        background-color:#35e3f0;
+        height:300px;
+        border-radius:3px;
+        box-shadow:0px 15px 15px 0px rgb(100, 89, 89);
+    }
+    
+    .right-division-1{
+        float:left;
+        overflow:hidden;
+        position: relative;
+        height:25px;
+        width:99px;
+        background-color:white;
+        margin:8px 0px 0px 20px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-2{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:87px;
+        background-color:white;
+        margin:8px 0px 0px 145px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-3{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:91.4px;
+        background-color:white;
+        margin:8px 0px 0px 255px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-4{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:96px;
+        background-color:white;
+        margin:45px 0px 3px 80px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-5{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:92.5px;
+        background-color:white;
+        margin:45px 0px 3px 210px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .holder{
+        margin:0px;
+        height:90px;
+        width:100%;
+        background-color:#35e3f0;
+    }
+    
+    .hold-hand{
+    
+        float:;
+        color:black;
+        margin:5px 0px 0px 25px;
+    
+        font-size:110px;
+    }
+    
+    
+    .syringe{
+        
+         background-color:;
+        float:;
+        color:rgb(92, 113, 228);
+        margin:10px 5px 5px 260px;
+        font-size:0px;
+        opacity:0.7;
+    }
+    
+    
+    .syringe:hover{
+        color:rgb(0, 204, 240);
+        transition:all 1.5s;
+        cursor:pointer;
+    }
+    
+    
+    
+    /* media for search for disease part */
+    
+    .e{
+        float:left;
+    }
+    
+    .left-division{
+        display:inline;
+        z-index:1;
+        word-wrap: break-word;
+        height:	145px;
+        width:97%;
+        background:#e6e6e6;
+       padding:5px 10px 0px 10px;
+        margin:60px 5px 0px 5px ;
+        position: absolute;;
+        box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+        text-align:;
+        float:left;
+        border-radius:5px;
+        font-family:sans-serif;
+        display:wrap;
+        overflow:hidden;
+    
+    
+    
+    }
+    
+    .left-division-heading{
+        word-wrap: break-word;
+        cursor:pointer;
+        margin:5px 5px 5px 5px;
+        padding:0px;
+        font-size:15px;
+        color:;
+        background-color:;
+    }
+    
+    .dieses{
+        list-style:none;
+        text-decoration:none;
+        font-size:14px;
+        color:#30cbd6;
+        padding:0px;
+        margin:5px 10px 0px 5px;
+    }
+    
+    
+    .dieses:hover{
+        cursor:pointer;
+        color:rgb(64, 66, 61);
+    }
+    
+    .left-division-view{
+        position:absolute;
+        bottom:7px;
+        left:280px;
+        text-transform:;
+        color:rgb(57, 130, 240);;
+        cursor:pointer;
+        font-size:12px;
+        float:right;
+    }
+    .left-division-view:hover{
+        color:black;
+    
+    
+    }
+    
+    
+    
+    
+    /***media for middle part **/
+    
+    .g{
+        margin:0px 0px 10px 0px;
+        width:95%;
+        background-color:white;
+        position: absolute;
+        left:10px;
+        top:670px;
+        border-radius:3px;
+        z-index:1;
+    
+    }
+    
+    .top-middle-division{
+        float:left;
+         height:40px;
+         width:100%;
+         background-color:white;
+         margin:0px 0px 0px 0px ;
+         padding:7px;
+         border-radius:10px;
+        color:blue;
+        text-align:center;
+        font-size:20px;
+    
+    }
+    
+    
+    .middle-division{
+         float:left;
+         height:150px;
+         width:100%;
+         background-color:white;
+         margin:30px 0px 0px 0px ;
+         border-radius:10px;
+         box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+         border-style:solid;
+         border-left-width:10px;
+         border-right-width:10px;
+         border-top-width:1px;
+         border-bottom-width:1px;
+         border-color:blue;
+         font-family:sans-serif;
+    
+    }
+    
+    
+    
+    
+    
+    .middle-division-img{
+        float:left;
+        position: ;
+        height:95%;
+        width:95px;
+        margin:5px 10px 5px 0px;
+        border-style:solid;
+        border-color: blue;
+        border-width: 5px 0px 5px 0px;
+        border-radius:0px 5px 5px 0px;
+    }
+    
+    .middle-division-heading{
+        margin:5px 10px 3px 0px;
+        font-size:14px;
+        opacity:0.8;
+    }
+    
+    .middle-division-text{
+        font-style:;
+        font-size:12px;
+        color:rgb(39, 75, 238);
+        margin:0px 3px 3px 15px;
+        opacity:0.9;
+        
+    }
+    
+    
+    
+  
+    .read-more{
+        display:none;
+    }
+
+    .quick-link{
+        float:left;
+        margin:10px 0px 0px 0px;
+        height:300px ;
+        width:100%;
+        color:white;
+        background-color:rgb(6, 6, 51);
+    }
+}
+
+
+
+
+/**media for mobile view  ***/
+@media (max-width:360px){
+    /*media for heading part */
+    .heading{
+        z-index:2;
+        margin :0px 0px 10px 0px;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        height:70px;
+        width:100%;
+        
+        border-radius:5px;
+        box-shadow: 0 0 25px #333;
+        top: 0;
+        left: 0;
+         
+        overflow:hidden;
+    
+        opacity:;
+        
+    }
+    
+    
+    .logo{
+    
+        width:150px;
+        height:auto;
+        margin:20px 0px 5px 10px;
+        background-color:white;
+    }
+    
+    .logo:hover{
+        cursor:pointer;
+    }
+    
+    
+    .logo-heading{
+        
+        float:left;
+        margin:5px 0px 0px 11px;
+        background-color:white;
+        font-family:montserrat;
+        font-size:17px;
+    
+    }
+    .logo-img{
+        height:1%px;
+        width:97%;
+        margin:0px;
+    }
+    
+    
+    
+    .anchor{
+        text-transform: ;
+        font-family:montserrat;
+        text-align:center;
+        height:30px;
+        list-style:none;
+        font-size:14px;
+        display:flex;
+        line-height: ;
+        justify-content:space-around;
+        background-color:white;
+        margin:27px 0px 0px 0px;
+        padding:0px 5px 5px 5px;
+        width:60%;
+    
+    }
+    
+    .li-home{
+        background-color:white;
+        padding:5px;
+        text-align:center;
+        height:30px;
+        width:auto;
+        text-decoration:none;
+        float:left;
+    
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    
+    .li-home:hover{
+        color:white;
+        background-color:rgb(41, 240, 240);
+        height:35px;
+        border-radius:5px;
+        transition: all 0.5s;
+        cursor:pointer;
+        padding:5px;
+    
+        
+    }
+    
+    
+    /*media for carosoul containing division */
+    
+    .right_container{
+        z-index: 1;
+        display:wrap;
+        float:left;
+        position:relative;
+        margin:220px 300px 0px 6px;
+        width:97%;
+        background-color:#35e3f0;
+        height:300px;
+        border-radius:3px;
+        box-shadow:0px 15px 15px 0px rgb(100, 89, 89);
+    }
+    
+    .right-division-1{
+        float:left;
+        overflow:hidden;
+        position: relative;
+        height:25px;
+        width:99px;
+        background-color:white;
+        margin:8px 0px 0px 15px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-2{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:87px;
+        background-color:white;
+        margin:8px 0px 0px 135px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-3{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:91.4px;
+        background-color:white;
+        margin:8px 0px 0px 240px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-4{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:96px;
+        background-color:white;
+        margin:45px 0px 3px 70px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-5{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:92.5px;
+        background-color:white;
+        margin:45px 0px 3px 180px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .holder{
+        margin:0px;
+        height:90px;
+        width:100%;
+        background-color:#35e3f0;
+    }
+    
+    .hold-hand{
+    
+        float:;
+        color:black;
+        margin:5px 0px 0px 25px;
+    
+        font-size:110px;
+    }
+    
+    
+    .syringe{
+        
+         background-color:;
+        float:;
+        color:rgb(92, 113, 228);
+        margin:10px 5px 5px 260px;
+        font-size:0px;
+        opacity:0.7;
+    }
+    
+    
+    .syringe:hover{
+        color:rgb(0, 204, 240);
+        transition:all 1.5s;
+        cursor:pointer;
+    }
+    
+    
+    
+    /* media for search for disease part */
+    
+    .e{
+        float:left;
+    }
+    
+    .left-division{
+        display:inline;
+        z-index:1;
+        word-wrap: break-word;
+        height:	145px;
+        width:97%;
+        background:#e6e6e6;
+       padding:5px 10px 0px 10px;
+        margin:60px 5px 0px 5px ;
+        position: absolute;;
+        box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+        text-align:;
+        float:left;
+        border-radius:5px;
+        font-family:sans-serif;
+        display:wrap;
+        overflow:hidden;
+    
+    
+    
+    }
+    
+    .left-division-heading{
+        word-wrap: break-word;
+        cursor:pointer;
+        margin:5px 5px 5px 5px;
+        padding:0px;
+        font-size:15px;
+        color:;
+        background-color:;
+    }
+    
+    .dieses{
+        list-style:none;
+        text-decoration:none;
+        font-size:14px;
+        color:#30cbd6;
+        padding:0px;
+        margin:5px 10px 0px 5px;
+    }
+    
+    
+   
+    .left-division-view{
+        position:absolute;
+        bottom:5px;
+        left:26s0px;
+        text-transform:;
+        color:rgb(57, 130, 240);;
+        cursor:pointer;
+        font-size:12px;
+        float:right;
+    }
+    .left-division-view:hover{
+        color:black;
+    
+    
+    }
+    
+    
+    
+    
+    /***media for middle part **/
+    
+    .g{
+        margin:0px 0px 10px 0px;
+        width:95%;
+        background-color:white;
+        position: absolute;
+        left:10px;
+        top:670px;
+        border-radius:3px;
+        z-index: 1;
+    
+    }
+    
+    .top-middle-division{
+        float:left;
+         height:40px;
+         width:100%;
+         background-color:white;
+         margin:0px 0px 0px 0px ;
+         padding:7px;
+         border-radius:10px;
+        color:blue;
+        text-align:center;
+        font-size:20px;
+    
+    }
+    
+    
+    .middle-division{
+         float:left;
+         height:150px;
+         width:100%;
+         background-color:white;
+         margin:30px 0px 0px 0px ;
+         border-radius:10px;
+         box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+         border-style:solid;
+         border-left-width:10px;
+         border-right-width:10px;
+         border-top-width:1px;
+         border-bottom-width:1px;
+         border-color:blue;
+         font-family:sans-serif;
+    
+    }
+    
+    
+    
+    
+    
+    .middle-division-img{
+        float:left;
+        position: ;
+        height:95%;
+        width:95px;
+        margin:5px 10px 5px 0px;
+        border-style:solid;
+        border-color: blue;
+        border-width: 5px 0px 5px 0px;
+        border-radius:0px 5px 5px 0px;
+    }
+    
+    .middle-division-heading{
+        margin:10px 10px 3px 0px;
+        font-size:15px;
+        opacity:0.8;
+    }
+    
+    .middle-division-text{
+        font-style:;
+        font-size:12px;
+        color:rgb(39, 75, 238);
+        margin:0px 3px 3px 15px;
+        opacity:0.9;
+        
+    }
+    
+    
+    
+  
+    .read-more{
+        display:none;
+    }
+
+    .quick-link{
+        float:left;
+        margin:10px 0px 0px 0px;
+        height:300px ;
+        width:100%;
+        color:white;
+        background-color:rgb(6, 6, 51);
+    }
+}
+
+
+
+
+/**media for mobile view  ***/
+@media (max-width:320px){
+    /*media for heading part */
+    .heading{
+        z-index:2;
+        margin :0px 0px 10px 0px;
+        display:flex;
+        justify-content:space-between;
+        background-color:white;
+        height:60px;
+        max-width:100%;
+        
+        border-radius:5px;
+        box-shadow: 0 0 25px #333;
+        top: 0;
+        left: 0;
+         
+        overflow:hidden;
+    
+        opacity:;
+        
+    }
+    
+    
+    .logo{
+    
+        width:140px;
+        height:auto;
+        margin:10px 0px 5px 5px;
+        background-color:white;
+    }
+    
+    
+    
+    .logo-heading{
+        
+        float:left;
+        margin:5px 0px 0px 1px;
+        background-color:white;
+        font-family:montserrat;
+        font-size:17px;
+    
+    }
+    .logo-img{
+        height:1%px;
+        width:97%;
+        margin:0px;
+    }
+    
+    
+    
+    .anchor{
+        text-transform: ;
+        font-family:montserrat;
+        text-align:center;
+        height:30px;
+        list-style:none;
+        font-size:13px;
+        display:flex;
+        line-height: ;
+        justify-content:space-around;
+        background-color:white;
+        margin:17px 0px 0px 0px;
+        padding:0px 5px 5px 5px;
+        width:60%;
+    
+    }
+   
+    
+    
+    /*media for carosoul containing division */
+    
+    .right_container{
+        z-index: 1;
+        display:wrap;
+        float:left;
+        position:relative;
+        margin:200px 0px 0px 8px;
+        width:95%;
+        background-color:#35e3f0;
+        height:300px;
+        border-radius:3px;
+        box-shadow:0px 15px 15px 0px rgb(100, 89, 89);
+    }
+    
+    .right-division-1{
+        float:left;
+        overflow:hidden;
+        position: relative;
+        height:25px;
+        width:99px;
+        background-color:white;
+        margin:5px 0px 0px 7px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-2{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:87px;
+        background-color:white;
+        margin:5px 0px 0px 112px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-3{
+        float:left;
+        overflow:hidden;
+        position:absolute;
+        height:25px;
+        width:91.4px;
+        background-color:white;
+        margin:5px 0px 0px 205px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-4{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:96px;
+        background-color:white;
+        margin:40px 0px 3px 60px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .right-division-5{
+        position:absolute;
+        float:left;
+        overflow:hidden;
+        height:25px;
+        width:92.5px;
+        background-color:white;
+        margin:40px 0px 3px 160px ;
+        border-radius:5px;
+        box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+        list-style:none;
+        text-align:center;
+        
+    
+    
+    }
+    
+    .holder{
+        margin:0px;
+        height:73px;
+        width:100%;
+        background-color:#35e3f0;
+    }
+    
+    .hold-hand{
+    
+        float:;
+        color:black;
+        margin:5px 0px 0px 25px;
+    
+        font-size:110px;
+    }
+    
+    
+    .syringe{
+        
+         background-color:;
+        float:;
+        color:rgb(92, 113, 228);
+        margin:10px 5px 5px 260px;
+        font-size:0px;
+        opacity:0.7;
+    }
+    
+    
+    .syringe:hover{
+        color:rgb(0, 204, 240);
+        transition:all 1.5s;
+        cursor:pointer;
+    }
+    
+    
+    
+    /* media for search for disease part */
+    
+    .e{
+        float:left;
+    }
+    
+    .left-division{
+        display:inline;
+        z-index:1;
+        word-wrap: break-word;
+        height:	142px;
+        width:95%;
+        background:#e6e6e6;
+        padding:5px 10px 0px 5px;
+        margin:47px 5px 0px 8px ;
+        position: absolute;;
+        box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+        text-align:;
+        float:left;
+        border-radius:5px;
+        font-family:sans-serif;
+        display:wrap;
+        overflow:hidden;
+    
+    
+    
+    }
+    
+    .left-division-heading{
+        word-wrap: break-word;
+        cursor:pointer;
+        margin:5px 5px 5px 5px;
+        padding:0px;
+        font-size:15px;
+        color:;
+        background-color:;
+    }
+    
+    .dieses{
+        list-style:none;
+        text-decoration:none;
+        font-size:14px;
+        color:#30cbd6;
+        padding:0px;
+        margin:5px 10px 0px 5px;
+    }
+    
+    
+   
+    .left-division-view{
+        position:absolute;
+        bottom:4px;
+        left:230px;
+        text-transform:;
+        color:rgb(57, 130, 240);;
+        cursor:pointer;
+        font-size:12px;
+        float:right;
+    }
+   
+    
+    
+    
+    
+    /***media for middle part **/
+    
+    .g{
+        margin:0px 0px 10px 0px;
+        width:95%;
+        background-color:white;
+        position: absolute;
+        left:10px;
+        top:620px;
+        border-radius:3px;
+        z-index:-1;
+    
+    }
+    
+    .top-middle-division{
+        float:left;
+         height:40px;
+         width:100%;
+         background-color:white;
+         margin:0px 0px 0px 0px ;
+         padding:7px;
+         border-radius:10px;
+        color:blue;
+        text-align:center;
+        font-size:20px;
+    
+    }
+    
+    
+    .middle-division{
+         float:left;
+         height:150px;
+         width:100%;
+         background-color:white;
+         margin:30px 0px 0px 0px ;
+         border-radius:10px;
+         box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+         border-style:solid;
+         border-left-width:10px;
+         border-right-width:10px;
+         border-top-width:1px;
+         border-bottom-width:1px;
+         border-color:blue;
+         font-family:sans-serif;
+    
+    }
+    
+    
+    
+    
+    
+    .middle-division-img{
+        float:left;
+        position: ;
+        height:95%;
+        width:95px;
+        margin:5px 10px 5px 0px;
+        border-style:solid;
+        border-color: blue;
+        border-width: 5px 0px 5px 0px;
+        border-radius:0px 5px 5px 0px;
+    }
+    
+    .middle-division-heading{
+        margin:7px 10px 3px 0px;
+        font-size:14px;
+        opacity:0.8;
+    }
+    
+    .middle-division-text{
+        font-style:;
+        font-size:12px;
+        color:rgb(39, 75, 238);
+        margin:0px 3px 3px 15px;
+        opacity:0.9;
+        
+    }
+    
+    
+    
+  
+    .read-more{
+        display:none;
+    }
+
+    .quick-link{
+        float:left;
+        margin:10px 0px 0px 0px;
+        height:300px ;
+        width:100%;
+        color:white;
+        background-color:rgb(6, 6, 51);
+        border-radius:5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

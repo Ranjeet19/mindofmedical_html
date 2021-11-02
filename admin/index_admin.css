@@ -1,0 +1,158 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* this css is for heading part */
+
+.header{
+    background:blueviolet;
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    position:fixed;
+    width:100%;
+    z-index:100;
+
+}
+
+.logo{
+    display:flex;
+    justify-content: space-between;
+    margin-left:95px;
+    margin-top:0px;
+
+}
+
+.img_logo{
+    margin-top:10px;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+}
+
+.logo_title{
+    font-family:'itim',cursive;
+    color:white;
+    margin:13px 10px;
+}
+
+.logo_room{
+    font-size:16px;
+    margin-top:-5px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width:240px;
+    margin-right:40px;
+}
+
+.ul_nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ul_nav_li{
+    color:white;
+    font-family:'itim',cursive;
+    margin-top:50px;
+    margin-left:40px;
+}
+
+.ul_nav_li:hover{
+    color:chartreuse;
+    cursor: pointer;
+}
+
+.admin{
+    display: block;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-right:30px;
+}
+
+.admin_name:hover{
+    color:chartreuse;
+    cursor:pointer;
+   }
+
+.admin_img{
+    margin-left:5px;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+}
+
+
+.admin_name{
+    color:white;
+    font-family:'itim',cursive;
+    margin-top:-5px;
+    margin-left:-2px;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+/* this css section for body part */
+.container{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    padding-top:80px;
+    
+}
+
+.first_div{
+    background:rgba(245, 250, 250, 0.801);
+    height:90vh;
+    width:100%;
+    overflow:hidden;
+    
+   
+}
+.second_div{
+    background:rgb(225, 226, 223);
+    height:auto;
+    width:100%;
+    padding-bottom:100px;
+}
+
+.ul_list{
+    display:flex;
+    flex-direction: column;
+    overflow:hidden;
+    overflow-y: scroll;
+    position:fixed;
+    width:270px;
+    height:86vh;
+}
+
+
+.li_list{
+    padding:10px 20px;
+    font-size:20px;
+    color:rgba(14, 13, 13, 0.548);
+    font-family:'itim',cursive;
+    padding-left:50px;
+    background:transparent;
+    height:50px;
+    width:100%;
+    
+}
+
+
+.active, .li_list:hover {
+    color:blueviolet;
+    cursor:pointer;
+    background:rgba(68, 66, 66, 0.13);
+  }

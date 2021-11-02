@@ -1,0 +1,539 @@
+/*created by Rnzt */
+
+/* it is the stylesheet of home page */
+
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* heading section*/
+
+.heading{
+
+	margin :0px 0px 10px 0px;
+	display:flex;
+	justify-content:space-between;
+	background-color:white;
+	height:80px;
+	width:100%;
+	user-select: none;
+	border-radius:5px;
+    box-shadow: 0 0 25px #333;
+    top: 0;
+    left: 0;
+ 	position: fixed ;
+	overflow:hidden;
+	z-index:2;
+	
+}
+
+.logo:hover{
+	cursor:pointer;
+}
+.logo{
+
+	width:300px;
+	height:80px;
+	margin:0px 0px 5px 100px;
+	background-color:white;
+}
+h1{
+	float:left;
+	margin:5px 0px 0px 11px;
+	background-color:white;
+	font-family:montserrat;
+	font-size:40px;
+
+}
+.logo-img{
+	height:1%px;
+	width:97%;
+	margin:0px;
+}
+
+
+
+.anchor{
+	text-transform: ;
+	font-family:montserrat;
+	text-align:center;
+	height:30px;
+	list-style:none;
+	font-size:20px;
+	display:flex;
+	line-height: ;
+	justify-content:space-around;
+	background-color:white;
+	margin:45px 0px 0px 0px;
+	padding:0px 5px 5px 5px;
+	width:35%;
+
+}
+
+.li-home{
+	background-color:white;
+	padding:4px;
+	text-align:center;
+	height:30px;
+	width:auto;
+	text-decoration:none;
+
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.li-home:hover{
+	color:white;
+	background-color:rgb(41, 240, 240);
+	height:30px;
+	border-radius:5px;
+	transition: all 0.5s;
+	cursor:pointer;
+
+	
+}
+
+
+.bottom-top{
+	height:34px;
+	width:34px;
+	border-radius:50%;
+	position: absolute;
+	float:right;
+	background-color:red;
+	z-index:5;
+	padding:2px;
+	cursor:pointer;
+	top:900px;
+	left:1300px;
+}
+.bottom-top:hover{
+	cursor:pointer;
+	background:blue;
+	transition:1s;
+}
+.bottom-top-img{
+	height:30px;
+	width:30px;
+	border-radius:50%;
+	justify-content: center;
+}
+
+/* left division containing all disease parts*/
+
+.e{
+	float:left;
+	z-index:2;
+}
+
+.left-division{
+	z-index:2;
+	position:left;
+	height:84%;
+	width:18%;
+	background:#e6e6e6;
+	margin:75px 5px 0px 15px ;
+	position:fixed;
+	box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+	float:left;
+	border-radius:5px;
+	font-family:sans-serif;
+
+
+}
+
+.left-division-heading{
+	cursor:pointer;
+	margin:5px 5px 0px 10px;
+	padding:5px;
+	font-size:22px;
+	color:;
+	background-color:;
+}
+
+.dieses{
+	list-style:none;
+	text-decoration:none;
+	font-size:16px;
+	color:#30cbd6;
+	padding:;
+	margin:4px 10px 0px 30px;
+}
+
+
+.dieses:hover{
+	cursor:pointer;
+	color:rgb(64, 66, 61);
+}
+
+.view{
+	position:absolute;
+	bottom:7px;
+	left:150px;
+	text-transform:;
+	color:rgb(57, 130, 240);;
+	cursor:pointer;
+	font-size:17px;
+	float:right;
+}
+.view:hover{
+	color:black;
+
+
+}
+
+
+
+
+
+/*middle division part containing  describing part of disease quick-link etc*/
+
+.g{
+	margin:90px 0px 10px 280px;
+	width:600px;
+	background-color:white;
+
+	border-radius:3px;
+
+}
+
+.top-middle-division{
+	float:left;
+	 height:30px;
+	 width:100%;
+	 background-color:white;
+	 margin:0px 0px 0px 0px ;
+	 padding:7px;
+	 border-radius:10px;
+	color:blue;
+	text-align:center;
+	font-style:italic;
+	font-size:20px;
+
+}
+
+
+.middle-division{
+	float:left;
+	 height:210px;
+	 width:100%;
+	 background-color:white;
+	 margin:30px 0px 0px 0px ;
+	 border-radius:10px;
+	 box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+	 border-style:solid;
+	 border-left-width:10px;
+	 border-right-width:10px;
+	 border-top-width:1px;
+	 border-bottom-width:1px;
+	 border-color:blue;
+	 font-family:sans-serif;
+
+}
+
+
+
+
+
+.middle-division-img{
+	float:left;
+	position: ;
+	height:95%;
+	width:180px;
+	margin:5px 10px 5px 0px;
+	border-style:solid;
+	border-color: blue;
+	border-width: 5px 0px 5px 0px;
+	border-radius:0px 5px 5px 0px;
+}
+
+.middle-division-heading{
+	margin:10px 10px 3px 0px;
+	font-size:22px;
+}
+
+.middle-division-text{
+	font-style:;
+	font-size:17px;
+	color:rgb(39, 75, 238);
+	margin:0px 10px 0px 15px;
+}
+
+
+
+.read-more{
+
+	float:right;
+	z-index: 1;
+	margin-right: 8px;
+	margin-top: 15px;
+	float:right;
+	height:30px;
+	width:90px;
+	color:white;
+	background-color:rgb(32, 139, 238);
+	border-radius:3px;
+	font-size:15px;
+	padding:4px;
+	text-align:center;
+}
+
+
+.read-more:hover{
+	cursor:pointer;
+	color:rgb(0, 0, 0);
+	background-color:rgba(221, 219, 219, 0.226);
+	transition:all 1s;
+}
+
+
+
+
+
+
+/* contact form css part */
+
+.quick_link{
+	display:flex;
+	justify-content:space-between;
+	float:left;
+	margin:10px 0px 0px 0px;
+	padding:20px;
+	height:auto ;
+	width:100%;
+	color:white;
+	background-color:rgb(6, 6, 51);
+	border-radius:5px;
+}
+
+.Review{
+	
+	text-align:center;
+	
+}
+
+.alert{
+	background:green;
+	color:white;
+	justify-content:center;
+	text-align:center;
+	padding:10px;
+	margin:10px;
+	font-family:sans-serif;
+	display:none;
+
+}
+
+input[type=email], [type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  button[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	border:none;
+  }
+  
+  button[type=submit]:hover {
+	background-color: rgb(8, 240, 19);
+	transition:all 1s;
+	cursor:pointer;
+	border:none;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
+
+
+
+
+
+
+
+/* right division containing medicines ,hospitals , slider(carasoul)*/
+
+
+.right_container{
+	float:right;
+	position:fixed;
+	margin:75px 5px 0px 900px;
+	width:32%;
+	background-color:#35e3f0;
+	height:84%;
+	border-radius:3px;
+	box-shadow:0px 15px 15px 0px rgb(100, 89, 89);
+	font-size:16px;
+}
+
+.right-division-1{
+	float:left;
+	overflow:hidden;
+	position: relative;
+	height:30px;
+	width:100px;
+	background-color:white;
+	margin:12px 0px 0px 10px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.right-division-2{
+
+	float:left;
+	overflow:hidden;
+	position:absolute;
+	height:30px;
+	width:90px;
+	background-color:white;
+	margin:55px 0px 0px 90px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.right-division-3{
+
+	float:left;
+	overflow:hidden;
+	position:absolute;
+	height:30px;
+	width:100px;
+	background-color:white;
+	margin:105px 0px 0px 160px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.right-division-4{
+
+	position:absolute;
+	float:left;
+	overflow:hidden;
+	height:30px;
+	width:105px;
+	background-color:white;
+	margin:155px 0px 3px 240px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.right-division-5{
+
+	position: absolute;
+	float:left;
+	overflow:hidden;
+	height:30px;
+	width:100px;
+	background-color:white;
+	margin:200px 0px 0px 320px ;
+	border-radius:5px;
+	box-shadow:0px 5px 5px 0px rgb(100, 89, 89);
+	list-style:none;
+	text-align:center;
+	
+
+
+}
+
+.holder{
+	background-image:url("../img/ww.jpg");
+	height:235px;
+	width:100%;
+	background-color:#35e3f0;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.hold-hand{
+
+	float:;
+	color:black;
+	margin:5px 0px 0px 25px;
+
+	font-size:110px;
+}
+
+
+.syringe{
+	display:none;
+
+	display:;
+	 background-color:;
+	float:;
+	color:rgb(92, 113, 228);
+	margin:10px 5px 5px 310px;
+	font-size:110px;
+	opacity:0.7;
+}
+
+
+.syringe:hover{
+	color:rgb(0, 204, 240);
+	transition:all 1.5s;
+	cursor:pointer;
+}
+
+
+
+
+ */

@@ -1,0 +1,156 @@
+
+	*{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+        }
+        
+       /* 
+        /*this css for heading part */
+    
+        section{
+            position:fixed;
+            height:auto;
+            width:100%;
+            background: rgb(39, 27, 151);
+            display:flex;
+            justify-content:space-between;
+            z-index:2;
+        }
+
+        .heading-mom{
+            color:white;
+            text-align:center;
+            font-size:40px;
+            padding:20px 0px 20px 50px;
+        }
+        .back{
+            color:white;
+            height:auto;
+            width:auto;
+            background:rgb(247, 34, 34);
+            border-radius:10px 0px 0px 10px;
+           
+
+        }
+        .back:hover{
+            background:rgb(39, 27, 151);
+            color:rgb(34, 247, 194);
+            transition:1s all;
+            cursor:pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+        .go-para{
+         
+            font-size:30px;
+            padding:25px 20px 28px 20px;
+        }
+
+
+
+
+
+
+        
+
+        h4{
+        padding:140px 65px 10px 50px;
+        text-align:center;
+        font-size:40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        opacity:0.7;
+        
+        }
+        hr{
+            margin:10px 0px 0px 0px;
+            width:auto;
+        }
+        .main-paragraph{
+        font-size:18px;
+        font-style:italic;
+        padding:50px 100px 0px 100px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        opacity:0.8;
+        
+        }
+        
+
+        .img-sec{
+            display:flex;
+            justify-content:space-around;
+        }
+        .img-part{
+            margin:30px auto;
+            height:280px;
+            width:500px;
+        
+        }
+
+
+        .medicine-part{
+            color:black;
+        }
+        
+        .medicine-img{
+            border-radius:5px;
+            height:250px;
+            width:270px;
+            float:right;
+            margin:60px 10px;
+        }
+        
+        .sub-heading{
+            font-family:sans-serif;
+        padding:15px 100px 0px 110px;
+        font-size:30px;
+        opacity:0.7;
+        }
+        
+        .sub-heading-2{
+            padding:5px 100px 5px 110px;
+            font-family:sans-serif;
+            font-size:18px;
+            opacity:0.7;
+        
+        }
+        
+        .sub-paragraph{
+            opacity:0.7;
+            padding:5px 100px 5px 120px;
+            font-size:17px;
+            opacity:;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        
+        .sub-list{
+            font-family:Arial, Helvetica, sans-serif;
+            padding:10px 100px 5px 150px;
+            font-size:17px;
+            opacity:0.7;
+        
+        
+        }
+        
+        
+        footer{
+            height:auto;
+            width:100%;
+            background:rgb(15, 7, 85);
+            color:white;
+            font-size:20px;
+            text-align:center;
+            margin-bottom:2px;
+            margin:100px 0px 0px 0px;
+            padding:20px;
+        }
+        
+    
+        
+
+        
+        
+        
+        
+        

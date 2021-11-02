@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="../../css/medicine2.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+     <div class="head">
+        <h2 class="medicine-title"> -By a "DIESES" Name.</h2>
+
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+      </div>
+
+      <div class="body">
+        <ul id="myUL">
+            <li><a href="../disease/asthma/asthma.html">Asthma</a></li>
+            <li><a href="../disease/bloodpressure/bp.html">Blood Pressure</a></li>
+  
+            <li><a href="../disease/breast cancer/breastcancer.html">Breast Cancer</a></li>
+            <li><a href="../disease/fever/fever.html">Fever</a></li>
+            <li><a href="../disease/migraine/migraine.html">Migrane</a></li>
+            <li><a href="../disease/heart attack/heartattack.html">heart attack</a></li>
+            <li><a href="../disease/kidney stone/kidneyston.html">kidney stone</a></li>
+          
+          
+            <li><a href="../disease/sore throat/sorethroat.html">sore throat</a></li>
+            <li><a href="../disease/wrinkles/wrinkles.html">wrinkles</a></li>
+          
+            
+            <li><a href="../disease/dengue/dengue.html">dengue</a></li>
+            <li><a href="../disease/disjoints/disjoint.html">disjoints</a></li>
+          
+            <li><a href="../disease/diabetes/diabetes.html">Diabetes</a></li>
+            <li><a href="../disease/mensuration/mensuration.html">mensuration</a></li>
+            <li><a href="../disease/mensuration/mensuration.html">depression</a></li> 
+          
+            <li><a href="../disease/flue/flue.html">flue</a></li>
+
+
+          
+            <li><a href="#">leg pain</a></li>
+            <li><a href="#">weight lose</a></li>
+          
+            <li><a href="#">hepatitis</a></li>
+            <li><a href="#">red eye</a></li>
+            <li><a href="#">herniya</a></li>
+          
+            <li><a href="../disease/blood cancer/bloodcancer.html">blood cancer</a></li>
+            <li><a href="#">brain tumor</a></li>
+          
+            <li><a href="#">aches</a></li>
+            <li><a href="#">gastics</a></li>
+            <li><a href="#">pimples</a></li> 
+            <li><a href="#">acene</a></li>
+            <li><a href="#">knee pain</a></li>
+           <li><a href="../disease/stroke/stroke.html">Stroke</a></li>
+       
+         </ul>
+</div>  
+
+
+  
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>

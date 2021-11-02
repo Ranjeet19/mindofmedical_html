@@ -1,0 +1,299 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
+.title-section{
+	background:rgb(46, 196, 241);
+	justify-content:space-between;
+	display:flex;
+	font-family:sans-serif;
+	
+   
+}
+
+.hospital-back{
+	background:red;
+	text-align:center;
+	padding:20px 30px;
+	color:white;
+	
+
+}
+
+
+.hospital-title{
+	color:white;
+	padding:10px 20px;
+	margin:0px 0px 0px 60px;
+}
+a{
+	text-decoration:none;
+}
+
+
+.hospital_container{
+	display:grid;
+	grid-template-columns:70% 30%;
+	height:auto;
+	width:100%;
+}
+.first_div{
+	padding:20px;
+	background:white;
+	height:auto;
+	width:100%;
+}
+.second_div{
+  margin:50px 20px;
+	height:250px;
+	
+}
+
+.hospital_div{
+	float:right;
+	overflow:hidden;
+	 height:190px;
+	 max-width:650px;
+	 background-color:white;
+	 margin:30px 0px 0px 0px ;
+	 border-radius:10px;
+	 box-shadow:0px 10px 10px 0px rgb(100, 89, 89);
+	 border-style:solid;
+	 border-left-width:10px;
+	 border-right-width:10px;
+	 border-top-width:1px;
+	 border-bottom-width:1px;
+	 border-color: rgb(65, 52, 252);
+	 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+
+.middle-division-img{
+
+float:right;
+height:90%;
+width:180px;
+margin:10px 0px 0px 10px;
+border-radius:5px 0px 0px 5px;
+cursor:pointer;
+
+}
+
+
+
+.middle-division-heading{
+margin:7px 0px 3px 10px;
+font-size:26px;
+color:rgb(89, 89, 250);
+}
+.middle-division-heading:hover{
+cursor:pointer;
+color:rgb(2, 2, 158);
+transition: all 1s;
+
+}
+
+.middle-division-text{
+font-style:italic;
+font-size:16px;
+color:rgb(39, 75, 238);
+margin:0px 0px 0px 20px;
+}
+
+
+
+.read-more{
+float:right;
+z-index: 1;
+position: ;
+margin-right: 8px;
+margin-top: 5px;
+height:30px;
+width:90px;
+color:white;
+background-color:rgb(32, 139, 238);
+border-radius:3px;
+font-size:15px;
+padding:4px;
+text-align:center;
+}
+
+
+.read-more:hover{
+cursor:pointer;
+color:rgb(0, 0, 0);
+background-color:rgba(221, 219, 219, 0.226);
+transition:all 1s;
+cursor:pointer;
+transform: scale(1.05);
+}
+
+
+
+a{
+text-decoration:none;
+}
+
+
+
+@media (max-width:995px){
+
+.hospital_container{
+display:block;
+}
+.second_div{
+display:none;
+float:right; 
+position:relative;
+margin-top:0px;
+
+}
+
+
+}
+@media (max-width:690px){
+
+
+
+.middle-division-img{
+
+float:left;
+height:100px;
+width:120px;
+margin:5px 5px 5px 0px;
+border-radius:0px 5px 5px 0px;
+
+}
+
+
+
+.middle-division-heading{
+margin:5px 0px 3px 5px;
+font-size:20px;
+}
+
+
+.middle-division-text{
+font-size:14px;
+margin:5px;
+}
+
+
+}
+
+@media (max-width:380px){
+
+
+
+.middle-division-img{
+
+float:left;
+height:90px;
+width:100px;
+margin:5px 5px 5px 0px;
+border-radius:0px 5px 5px 0px;
+
+}
+
+
+
+
+}
+@media (max-width:500px){
+
+.read-more{
+display:none;
+}
+
+}
+
+
+/* css for search bar */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+* {
+  font-family: Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.flexbox {
+  background: linear-gradient(155deg, #55c7ed, #2bb3e0, #3bc1ed);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  margin: 20px;
+}
+
+.search > h3 {
+  font-weight: normal;
+}
+
+.search > h1,
+.search > h3 {
+  color: white;
+  margin-bottom: 15px;
+  text-shadow: 0 1px #0091c2;
+}
+
+.search > div {
+  display: inline-block;
+  position: relative;
+  filter: drop-shadow(0 1px #0091c2);
+}
+
+.search > div:after {
+  content: "";
+  background: white;
+  width: 4px;
+  height: 13px;
+  position: absolute;
+  top: 22px;
+  right: 2px;
+  transform: rotate(150deg);
+}
+
+.search > div > input {
+  color: white;
+  font-size: 16px;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border: solid 3px white;
+  outline: none;
+  border-radius: 35px;
+  transition: width 0.5s;
+  margin-left:20px;
+  
+}
+
+.search > div > input::placeholder {
+  color: #efefef;
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+}
+
+.search > div > input:focus::placeholder {
+  opacity: 1;
+}
+
+.search > div > input:focus,
+.search > div > input:not(:placeholder-shown) {
+  width: 250px;
+}

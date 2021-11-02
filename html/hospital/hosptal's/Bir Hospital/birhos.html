@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+  <link rel="stylesheet" href="birhos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <title>BirHospital</title>
+
+    <style>
+          @media (max-width:400px){
+        
+        .title_section{
+            display:flex;
+            justify-content:space-between;
+            padding:0px;
+            background:green;
+            font-family:sans-serif;
+    
+        }
+       
+      }
+    
+      @media (max-width:1300px){
+    
+    
+        .container{
+          display:flex;
+          flex-direction: column-reverse;
+        }
+        .first_div{
+          height:auto;
+          background:coral;
+        }
+        .second_div{
+          height:auto;
+        }
+        
+    
+      }
+    
+
+      @media (max-width:490px){
+
+
+        .tablink {
+          	padding: 5px 3px;
+					  font-size: 14px;
+					}
+          .e.g{
+	          margin:20px 20px ;
+        	  width:auto;
+	          background-color:rgb(36, 226, 30);
+
+            }
+          .pc{
+	            width:100%;
+             	height:250px;
+          }
+      
+                .Hospital-name{
+                    font-size:16px;
+                }
+
+                .hospital-address{
+                  
+                    font-size:14px;
+
+                }
+
+                .workers{
+                 
+                 padding:20px 10px;
+                 margin : 20px 0px;
+         }
+
+         .map1{
+        
+          height:auto;
+          width:100%;
+        }
+
+
+
+
+
+        #gallery{
+
+              justify-content: space-around;
+              padding-left:20px;
+              }
+              .img{
+                height:140px;
+                width:135px;
+                margin-bottom:10px;
+               
+              }
+             
+
+      }
+
+
+      @media (max-width:450px){
+      
+      
+        .tablink {
+          	padding: 4px 3px;
+					  font-size: 14px;
+					}
+          .e.g{
+	          margin:20px 20px ;
+        	  width:auto;
+	          background-color:rgb(36, 226, 30);
+
+            }
+          .pc{
+	            width:100%;
+             	height:250px;
+          }
+      
+                .Hospital-name{
+                    font-size:16px;
+                }
+
+                .hospital-address{
+                  
+                    font-size:14px;
+
+                }
+
+                .workers{
+                 
+                    padding:20px 10px;
+                    margin : 20px 0px;
+					  }
+
+				.map1{
+          height:auto;
+          width:100%;
+        }
+
+      
+      
+      }
+    </style>
+</head>
+
+
+
+<!-- this is the header section -->
+<header class="title_section">
+    <h1 class="hospital_title">
+      Hospital's
+    </h1>
+    <a href="../../hospital.html"> <div class="hospital_back">
+      <p>
+        Back!
+      </p>
+
+    </div></a>
+</header>
+<body>
+    
+  
+    
+
+<div class="container">
+
+
+
+  <div class="first_div">
+
+
+    
+    <div class="quotes">
+      <p class="quotes_para">
+
+        " -A hospital alone shows what war is."
+      </p>
+    </div>
+
+
+    <div class="map">
+      <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.403517217119!2d85.31146271506202!3d27.70482488279296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18fffc37200b%3A0xfcc471d3e99106bc!2sBir%20Hospital!5e0!3m2!1sen!2snp!4v1603124170331!5m2!1sen!2snp" width="370" height="255" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+      </iframe>		
+    </div>
+
+
+
+  </div>
+  <div class="second_div">
+
+    <div class="e g">
+      <img class="pc" src="../../img/bir-hospita.jpg" >
+
+  
+
+      <div class="text_inpic">
+        <div> 
+          <h2 class="Hospital-name">Bir Hospital</h2>
+        </div>
+      <div>
+        <h3 class="hospital-address"> Kanti Path, Kathmandu Nepal</h3>
+
+      </div>
+
+      </div>
+          
+
+          
+          
+              <div class="mybutton">
+                  <button class="tablink" onclick="openPage('About', this, 'rgb(36, 226, 30)')" id="defaultOpen">About</button>
+                  <button class="tablink" onclick="openPage('Health_worker', this, 'rgb(36, 226, 30)')"> Health Workers</button>
+                  <button class="tablink" onclick="openPage('Contact', this, 'rgb(36, 226, 30)')">Contact</button>
+                  <button class="tablink" onclick="openPage('Gallery', this, 'rgb(36, 226, 30)')">Gallery</button>
+                  <button class="tablink" onclick="openPage('News', this, 'rgb(36, 226, 30)')" >News</button>
+                  <button class="tablink" onclick="openPage('More', this, 'rgb(36, 226, 30)')">More</button>
+                  
+              </div>
+
+
+
+
+              <!--THIS is ABOUT section-->
+              <div id="About" class="tabcontent">
+              
+                  <p class="text"> Bir Hospital is the oldest hospital of Nepal. This hospital was established in 1947 BS, under the name of contemporary Prime Minister Bir Shamsher Jung Bahadur Rana. Today it has a proud history of 125 years and the first hospital of Nepal wherethe practice of modern medicinecommenced.
+
+                      </p>
+                      <p class="text">Currently the hospital consists of 535 beds and it provides medical and surgical treatment to all people.Many people from rural areas come here to get free treatment.The facilities available here are nephrologic services,disaster response,surgery,burn and plastic surgery and dental department.
+
+                          </p>
+
+                      
+                </div>
+
+
+
+
+
+      <!--THIS is HEALTH WoRKERS section-->
+              <div id="Health_worker" class="tabcontent">
+               
+                <b><p class="text">Health worker is the person who is working on this hospital..</p>
+                </b>
+
+          
+
+                <div class="workers">
+                   
+                  <div><img src="img/Prof. Dr. Anupama Karki Kunwar.jpg"></div>
+                  <div>
+                    <h4 class="w-name">
+                      Prof. Dr. Anupama Karki Kunwar
+                    </h4>
+                    <p class="w-description">
+                       "Being Happy to serve patient"
+                    </p>
+              
+                    <p class="w-description">
+                      <b>category:-</b> Doctor <br>
+                      <b>Qualification :-</b> MBBS, Bangladesh MD, NAMS 
+                      <br>
+                      <b>Speciality :-</b>  
+                      Senior Consultant Dermatologist and Venerologist/Cosmetologist and Laser Surgeon
+                      <br>
+                  
+                      <b>contact :-</b> N/A
+                      <br>
+                      <b>email :-</b> N/A
+                  </p>
+                  </div>
+        
+          </div>
+
+
+
+
+
+          
+          <div class="workers">
+                   
+              <div><img src="img/dr dependra gautam.jpg"></div>
+              <div>
+                <h4 class="w-name">
+                     
+                      Dr. Dipendra Gautam
+                  </h4>
+                <p class="w-description">
+                    "Be what you want to be"
+                </p>
+                
+                <p class="w-description">
+                  <b>category:-</b> Doctor <br>
+                  <b>Qualification :-</b> MBBS,MS
+                  <br>
+                  <b>Speciality :-</b>Senior consultant ENT Surgeon
+                  <br>
+              
+                  <b>contact :-</b> N/A
+                  <br>
+                  <b>email :-</b> N/A
+              </p>
+              </div>
+    
+      </div>
+
+
+
+      <div class="workers">
+                   
+          <div><img src="img/Prof. Dr. Anupama Karki Kunwar.jpg"></div>
+          <div>
+            <h4 class="w-name">
+              Prof. Dr. Anupama Karki Kunwar
+            </h4>
+            <p class="w-description">
+               "Being Happy to serve patient"
+            </p>
+      
+            <p class="w-description">
+              <b>category:-</b> Doctor <br>
+              <b>Qualification :-</b> MBBS, Bangladesh MD, NAMS 
+              <br>
+              <b>Speciality :-</b>  
+              Senior Consultant Dermatologist and Venerologist/Cosmetologist and Laser Surgeon
+              <br>
+          
+              <b>contact :-</b> N/A
+              <br>
+              <b>email :-</b> N/A
+          </p>
+          </div>
+
+  </div>
+
+
+
+
+
+  
+  <div class="workers">
+           
+      <div><img src="img/dr dependra gautam.jpg"></div>
+      <div>
+        <h4 class="w-name">
+             
+              Dr. Dipendra Gautam
+          </h4>
+        <p class="w-description">
+            "Be what you want to be"
+        </p>
+        
+        <p class="w-description">
+          <b>category:-</b> Doctor <br>
+          <b>Qualification :-</b> MBBS,MS
+          <br>
+          <b>Speciality :-</b>Senior consultant ENT Surgeon
+          <br>
+      
+          <b>contact :-</b> N/A
+          <br>
+          <b>email :-</b> N/A
+      </p>
+      </div>
+
+</div>
+
+
+              </div>
+
+
+
+
+  
+
+
+
+
+              
+      <!--THIS is COntact section-->
+              <div id="Contact" class="tabcontent">
+              
+                  <h3 class="heading">Email :</h3>
+                  <ul class="list">
+                      <a href="#">N/A </a>
+                  </ul>
+
+                  <h3 class="heading">Phone :</h3>
+                      <p class="list">01-4221988 </p>
+                      <p class="list">01-4221119  </p>
+                  
+                  
+                      <h3 class="heading">  P.O. Box:</h3>
+                      <p class="list">N/A</p>
+
+                      <h3 class="heading"> Ambulance No:</h3>
+                      <p class="list">N/A</p>
+                </div>
+                
+
+    <!-- This is Gallery section -->
+              <div id="Gallery" class="tabcontent">
+          
+                  <p class="text">This Gallery shows the Events and Activities of TUTH</p>
+
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+                  <img class="img" src="../../img/teaching.jpg" height="150px" width="200px">
+              
+                </div>
+          
+               <!-- this is NEWS section -->
+              <div id="News" class="tabcontent">
+              
+                  <p class="text" id="hos-news">There is currently, No new News available !!</p> 
+                </div>
+
+
+                <!-- this is MORE section -->
+                <div id="More" class="tabcontent">
+                  
+                  <p class="text">Know more about BIR Hos...</p>
+                </div>
+              
+              <script>
+              function openPage(pageName,elmnt,color) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].style.backgroundColor = "";
+                }
+                document.getElementById(pageName).style.display = "block";
+                elmnt.style.backgroundColor = color;
+              }
+              
+              // Get the element with id="defaultOpen" and click on it
+              document.getElementById("defaultOpen").click();
+              </script>
+                 
+  </div>
+
+</div>
+</div>
+      
+
+</body>
+</html>
